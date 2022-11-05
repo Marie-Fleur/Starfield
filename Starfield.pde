@@ -12,7 +12,7 @@ void setup() {
   background(0);
 
   size(800, 800);
-  photo = loadImage("xtree2.png");
+  photo = loadImage("xtree3.png");
   photo.resize(IMAGE_WIDTH, 0);
   rocket = new Oddball(photo);
   particles = new Particle[NUM_PARTICLES];
