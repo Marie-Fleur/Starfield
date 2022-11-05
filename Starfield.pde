@@ -32,7 +32,6 @@ void draw() {
        frameRate(30);
    fill(0, 0, 0, 30);
     rect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
-    System.out.println(activeParticles);
     for (int i = 0; i < Math.min(particles.length, activeParticles + 1); i++) {
       particles[i].move();
       particles[i].show();
